@@ -1,0 +1,22 @@
+Comandos Básicos: 
+    git int : Inicia um repositório
+    git add <Nome do arquivo> : adiciona um arquivo especifico no Stage
+    git add . : Adiciona todos os arquivos novos e alterados no Stage
+    git rm <Nome do arquivo> : Remove um arquivo especifico do repositorio
+    git status : mostra a situação dos arquivos na pasta do repositorio local
+    git commit -m '<Adicione um comentário sobre o que está sendo feito>'
+
+Desfazendo alterações:
+    git checkout -- <Nome do arquivo> : Desfaz as ultimas alterações ainda não adicionadas com comando : git add
+
+
+Criando chave ssh para autenticação no GitHub
+    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+
+Linkando projeto local com projeto remoto: 
+    git remote add origin <url do repositorio> : Conecta repoistorio local com remoto
+    git push : envia projeto da branch local para branch remota
+
+
+    .ssh/id_ed25519id_rsa.pub
